@@ -1,6 +1,8 @@
 Ti.include("settings.js");
 
-var webview1 = Ti.UI.createWebView();
+var webview1 = Ti.UI.createWebView({ 
+	url:'loading.html'
+});
 
 function loadHomePage(myWindow) {
 	if (Ti.Network.online) {
@@ -74,7 +76,7 @@ if (Titanium.Platform.osname == 'android') {
 
 
 // this sets the background color of the master UIView (when there are no windows/tab groups on it)
-Ti.UI.setBackgroundColor('#000');
+//Ti.UI.setBackgroundColor(bgcolor);
 
 var win1 = Ti.UI.createWindow({
 	orientationModes : orientations,
@@ -112,18 +114,49 @@ Ti.Gesture.addEventListener('orientationchange', function() {
 });
 
 
+// Activity indicator -- spinning thingy
+// Android behavior: displays on each new page load
+// iPhone behavior: displays on initial startup
+// It's just that way. Blame the respective native event models.
+
+var actInd = Titanium.UI.createActivityIndicator({
+	bottom:10, 
+	height:50,
+	width:10,
+	message: waitmsg,
+	style:Titanium.UI.iPhone.ActivityIndicatorStyle.PLAIN
+});
+
+webview1.addEventListener('beforeload', function() {
+	Ti.API.debug('beforeload');
+	actInd.show();
+});
+
+webview1.addEventListener('load', function() {
+	Ti.API.debug('load');
+	actInd.hide();
+});
+
 
 // iOS button bar
 Ti.API.debug(Ti.Platform.osname);
 
 if (Ti.Platform.osname == 'iphone') {
 	var bb2 = Titanium.UI.createButtonBar({
-		labels:['Back', 'Home', 'Forward'],
-		backgroundColor:'#369',
+		labels:[
+		//'Back', 'Home', 'Forward'
+		
+			{ title: 'Back', image: 'icon_arrow_left.png' },
+			{ title: 'Home', image: 'icon_home.png' },
+			{ title: 'Forward', image: 'icon_arrow_right.png' }
+		],
+		backgroundColor:'#333',
 		style: Titanium.UI.iPhone.SystemButtonStyle.BAR,
-		height: 25,
+		height: 45,
 		width: win1.width,
-		bottom: 0
+		bottom: 0,
+		borderWidth: 3,
+		borderRadius: 0
 	});
 	bb2.addEventListener('click',function(ce)
 	{
@@ -145,9 +178,12 @@ if (Ti.Platform.osname == 'iphone') {
 		}
 	});
 
+	
 }
 
 if (Ti.Platform.osname == 'android') {
+
+
 	// YouTube URL override
 	// Note this won't work on iOS because of how beforeload is implemented
 	

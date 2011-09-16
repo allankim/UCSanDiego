@@ -4,7 +4,7 @@
 
 
 # Full size splash screens -- 480x800 and 800x480 respectively
-my %BG = ('port' => 'background_portrait.png', 'land' => 'background_landscape.png');
+my %BG = ('port' => 'android-portrait.png', 'land' => 'android-landscape.png');
 
 # Full size icon -- some multiple of 60x60 on a 72x72 transparent canvas (e.g. 300x300 on 360x360 canvas)
 # See "Launcher Icons" under Android dev guide, best practices section
