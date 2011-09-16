@@ -7,9 +7,9 @@
         <target device="android">true</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <id>edu.ucsd.ucsandiego</id>
+    <id>edu.ucsd.m.wrapper</id>
     <name>UCSanDiego</name>
-    <version>3.5</version>
+    <version>1.0</version>
     <publisher>UC San Diego -- Campus Web Office</publisher>
     <url>http://m.ucsd.edu/</url>
     <description>Official mobile app of UC San Diego</description>
@@ -34,9 +34,8 @@
 		</orientations>
 	</iphone>
 	<android xmlns:android="http://schemas.android.com/apk/res/android">
-		<manifest android:versionCode="4" android:versionName="4">
+		<manifest>
 			<supports-screens android:anyDensity="true"/>
-			<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 		</manifest>
 	</android>
 	<modules>

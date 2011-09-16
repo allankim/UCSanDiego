@@ -8,7 +8,3 @@ Ti.UI.LANDSCAPE_RIGHT,
 Ti.UI.PORTRAIT,
 Ti.UI.UPSIDE_PORTRAIT
 ];
-
-var bgcolor = '#000';
-
-var waitmsg = 'Loading ...';
