@@ -141,7 +141,7 @@ webview1.addEventListener('load', function() {
 // iOS button bar
 Ti.API.debug(Ti.Platform.osname);
 
-if (Ti.Platform.osname == 'iphone') {
+if (Ti.Platform.osname == 'iphone' || Ti.Platform.osname == 'ipad') {
 	var bb2 = Titanium.UI.createButtonBar({
 		labels:[
 		//'Back', 'Home', 'Forward'

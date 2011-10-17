@@ -1,5 +1,17 @@
-#Thu Jul 28 11:24:33 PDT 2011
+#Thu Oct 13 11:42:14 PDT 2011
 eclipse.preferences.version=1
+provisioning_profiles/development/1FE1471D-E610-465E-BC61-8AEF8BBD7416/appid=*
+provisioning_profiles/development/1FE1471D-E610-465E-BC61-8AEF8BBD7416/filepath=/Users/AK/Downloads/UCSD_dev-5.mobileprovision
+provisioning_profiles/development/1FE1471D-E610-465E-BC61-8AEF8BBD7416/name=UCSD_dev
+provisioning_profiles/development/1FE1471D-E610-465E-BC61-8AEF8BBD7416/uuid=1FE1471D-E610-465E-BC61-8AEF8BBD7416
+provisioning_profiles/development/547B4B12-8967-4A82-BD1B-115194B0E0C9/appid=*
+provisioning_profiles/development/547B4B12-8967-4A82-BD1B-115194B0E0C9/filepath=/Users/AK/Downloads/UCSD_dev(1).mobileprovision
+provisioning_profiles/development/547B4B12-8967-4A82-BD1B-115194B0E0C9/name=UCSD_dev
+provisioning_profiles/development/547B4B12-8967-4A82-BD1B-115194B0E0C9/uuid=547B4B12-8967-4A82-BD1B-115194B0E0C9
+provisioning_profiles/development/5924AC0E-0641-4AE2-970D-EF8E92F1082B/appid=*
+provisioning_profiles/development/5924AC0E-0641-4AE2-970D-EF8E92F1082B/filepath=/Users/AK/Downloads/UCSD_dev-4.mobileprovision
+provisioning_profiles/development/5924AC0E-0641-4AE2-970D-EF8E92F1082B/name=UCSD_dev
+provisioning_profiles/development/5924AC0E-0641-4AE2-970D-EF8E92F1082B/uuid=5924AC0E-0641-4AE2-970D-EF8E92F1082B
 provisioning_profiles/development/677443E5-3D1A-471B-820A-D5346C1BB3DD/appid=*
 provisioning_profiles/development/677443E5-3D1A-471B-820A-D5346C1BB3DD/filepath=/Users/AK/Downloads/UCSD_dev-2.mobileprovision
 provisioning_profiles/development/677443E5-3D1A-471B-820A-D5346C1BB3DD/name=UCSD_dev
