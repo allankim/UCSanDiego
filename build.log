@@ -87,3 +87,4 @@ Logfile initialized
 [DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
 [DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/smalljs.jar => org/mozilla/javascript/resources/Messages.properties
 [DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
+[INFO] Android Emulator has exited
