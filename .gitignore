@@ -1,4 +1,5 @@
 .fastdev.lock
 build/iphone
 build/android
+build.log
 tmp

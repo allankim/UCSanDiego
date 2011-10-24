@@ -148,6 +148,7 @@ if (Ti.Platform.osname == 'iphone' || Ti.Platform.osname == 'ipad') {
 		
 			{ title: 'Back', image: 'icon_arrow_left.png' },
 			{ title: 'Home', image: 'icon_home.png' },
+			{ title: 'Reload', image: 'icon_refresh.png' },
 			{ title: 'Forward', image: 'icon_arrow_right.png' }
 		],
 		backgroundColor:'#333',
@@ -169,6 +170,10 @@ if (Ti.Platform.osname == 'iphone' || Ti.Platform.osname == 'ipad') {
 		else if (ce.index == 1)
 		{
 			loadHomePage();
+		}
+		else if (ce.index == 2)
+		{
+			webview1.reload();
 		}
 		else
 		{
