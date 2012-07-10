@@ -5,6 +5,10 @@ var webview1 = Ti.UI.createWebView({
 });
 
 function loadHomePage(myWindow) {
+	if (Ti.Platform.osname == 'ipad') {
+		startUrl += "?override=full";
+		Ti.API.debug(startUrl);		
+	}
 	if (Ti.Network.online) {
 		//webview1 = Ti.UI.createWebView({ url : startUrl });
 		webview1.url = startUrl;
@@ -100,14 +104,16 @@ win1.addEventListener('android:back',function() {
 	}
 });
 
-// Android hardware back button
+// Repaint on scroll for ios
 win1.addEventListener('scroll',function() {
-	webview1.repaint();
+	if (Ti.Platform.osname != 'android')
+		webview1.repaint();
 });
 
 // Orientation change listener: repaints on change
 Ti.Gesture.addEventListener('orientationchange', function() {
-    webview1.repaint();
+	if (Ti.Platform.osname != 'android')
+		webview1.repaint();
     if (bb2 != null) {
     	bb2.width = win1.width;
     }

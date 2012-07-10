@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="ti.android.runtime">rhino</property>
+    <sdk-version>1.7.5</sdk-version>
     <deployment-targets>
         <target device="mobileweb">false</target>
         <target device="iphone">true</target>
@@ -9,11 +11,11 @@
     </deployment-targets>
     <id>edu.ucsd.ucsandiego</id>
     <name>UCSanDiego</name>
-    <version>3.8</version>
+    <version>3.99</version>
     <publisher>UC San Diego -- Campus Web Office</publisher>
     <url>http://m.ucsd.edu/</url>
     <description>Official mobile app of UC San Diego</description>
-    <copyright>2011 by Regents of the University of California</copyright>
+    <copyright>2012 by Regents of the University of California</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
@@ -34,7 +36,7 @@
         </orientations>
     </iphone>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
-        <manifest android:versionCode="4" android:versionName="4">
+        <manifest android:versionCode="6" android:versionName="5.1.Monday3">
             <supports-screens android:anyDensity="true"/>
             <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
         </manifest>

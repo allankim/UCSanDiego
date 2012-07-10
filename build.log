@@ -1,13 +1,31 @@
 Logfile initialized
 [INFO] logfile = /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build.log
-[DEBUG] /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/builder.py distribute UCSanDiego /Users/AK/Documents/android-sdk-mac_x86 /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego edu.ucsd.ucsandiego /Users/AK/.keystore ilumn8t! mykey /Users/AK/Desktop/thisisit 5
-[INFO] Titanium SDK version: 1.7.1 (06/21/11 14:28 1293a6d)
+[DEBUG] /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/builder.py install UCSanDiego /Users/AK/Documents/android-sdk-mac_x86 /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego edu.ucsd.ucsandiego 4
+[INFO] Titanium SDK version: 1.7.5 (11/02/11 17:00 ab20af7)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.094001 seconds on emulator to get ready
+[DEBUG] edu.ucsd.ucsandiego installed? False
 [INFO] Copying project resources..
+[INFO] Detected tiapp.xml change (or assets deleted), forcing full re-build...
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/android/appicon.png => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/appicon.png
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/android/default.png => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/default.png
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/android/test.png => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/test.png
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/app.js => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/app.js
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/icon_arrow_left.png => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/icon_arrow_left.png
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/icon_arrow_right.png => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/icon_arrow_right.png
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/icon_home.png => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/icon_home.png
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/icon_refresh.png => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/icon_refresh.png
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/loading.html => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/loading.html
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/settings.js => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/settings.js
+[TRACE] COPYING CREATED FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/vcard.js => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/vcard.js
 [TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
 [TRACE] COPYING FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/android/images/res-hdpi/appicon.png => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/res/drawable-hdpi/appicon_e5fbaffc57.png
 [TRACE] COPYING FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/android/images/res-ldpi/appicon.png => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/res/drawable-ldpi/appicon_e5fbaffc57.png
 [TRACE] COPYING FILE: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/android/images/res-mdpi/appicon.png => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/res/drawable-mdpi/appicon_e5fbaffc57.png
+[DEBUG] app stylesheet => /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/ApplicationStylesheet.java
 [DEBUG] copying app icon: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/appicon.png
 [DEBUG] generating theme.xml
 [DEBUG] found drawable-long-land-hdpi splash screen at /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/android/images/res-long-land-hdpi/default.png
@@ -32,21 +50,26 @@ Logfile initialized
 [DEBUG] copying /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/res/drawable-notlong-port-mdpi/background.png
 [DEBUG] found splash screen at /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/assets/Resources/default.png
 [TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/ApplicationStylesheet.java to javac build list
 [DEBUG] adding /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/R.java to javac build list
 [DEBUG] adding /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/UcsandiegoActivity.java to javac build list
 [DEBUG] adding /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/UcsandiegoAppInfo.java to javac build list
 [DEBUG] adding /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/UcsandiegoApplication.java to javac build list
-[DEBUG] Building Java Sources: "/Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/R.java" "/Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/UcsandiegoActivity.java" "/Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/UcsandiegoAppInfo.java" "/Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/UcsandiegoApplication.java"
+[DEBUG] Building Java Sources: "/Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/ApplicationStylesheet.java" "/Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/R.java" "/Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/UcsandiegoActivity.java" "/Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/UcsandiegoAppInfo.java" "/Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/gen/edu/ucsd/ucsandiego/UcsandiegoApplication.java"
 [INFO] Compiling Android Resources... This could take some time
 [DEBUG] Android classes.dex built
 [DEBUG] creating unsigned apk: /Users/AK/Documents/Titanium Studio Workspace/UCSanDiego/build/android/bin/app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/app.js
 [DEBUG] from resource zip => assets/Resources/appicon.png
 [DEBUG] from resource zip => assets/Resources/default.png
 [DEBUG] from resource zip => assets/Resources/icon_arrow_left.png
 [DEBUG] from resource zip => assets/Resources/icon_arrow_right.png
 [DEBUG] from resource zip => assets/Resources/icon_home.png
+[DEBUG] from resource zip => assets/Resources/icon_refresh.png
 [DEBUG] from resource zip => assets/Resources/loading.html
+[DEBUG] from resource zip => assets/Resources/settings.js
 [DEBUG] from resource zip => assets/Resources/test.png
+[DEBUG] from resource zip => assets/Resources/vcard.js
 [DEBUG] from resource zip => assets/tiapp.xml
 [DEBUG] from resource zip => res/drawable/appicon.png
 [DEBUG] from resource zip => res/drawable/background.png
@@ -66,25 +89,30 @@ Logfile initialized
 [DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
 [DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
 [DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/apache/Commons-NOTICE.txt
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/apache/HttpComponents-NOTICE.txt
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/apache/mime4j-NOTICE.txt
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/build.properties
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/smalljs.jar => org/mozilla/javascript/resources/Messages.properties
-[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.1/android/smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
-[INFO] Android Emulator has exited
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/smalljs.jar => org/mozilla/javascript/resources/Messages.properties
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR /Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.051847 seconds on emulator to get ready
+[INFO] Installing application on emulator
+[INFO] Application installed. Launch from drawer on Home Screen
